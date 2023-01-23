@@ -6,12 +6,9 @@ import Body from "./components/Body";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
+import {Helmet} from "react-helmet";
 
 function App(){
-
-  useEffect(() => {
-    document.title = "Ahnaf Ahmad";  
-  }, []);
 
   return (
     <section class="wrapper">
@@ -19,6 +16,12 @@ function App(){
       <div id="stars2"></div>
       <div id="stars3"></div>
       <div className="App">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Ahnaf Ahmad</title>
+          <link rel="canonical" href="https://developer-xyyz.github.io/portfolio-app" />
+          <meta name="description" content="Ahnaf Ahmad" />
+        </Helmet>
         <Header/>
         <Body/>
         <Projects/>
