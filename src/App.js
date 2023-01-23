@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React, { useEffect} from "react";
 import './App.css';
+import './Stars.css';
+import Header from "./components/Header";
+import Body from "./components/Body";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
-function App() {
+function App(){
+
+  useEffect(() => {
+    document.title = "Ahnaf Ahmad";  
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <section class="wrapper">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div className="App">
+        <Header/>
+        <Body/>
+        <Projects/>
+        <Resume/>
+        <Footer/>
     </div>
+    </section>
+    
   );
 }
 

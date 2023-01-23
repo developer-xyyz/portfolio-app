@@ -1,0 +1,25 @@
+.header {
+  margin-top: 80px;
+  padding-bottom: 20px;
+  width: 170px;
+  display: inline-block;
+}
+
+.name {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(14), cursor 0.4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}

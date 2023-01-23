@@ -1,0 +1,50 @@
+.projects {
+  margin-top: 30px;
+  padding: 20px;
+  padding-bottom: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ffff;
+  width: 880px;
+}
+
+.Disasteye {
+  text-align: center;
+  background: transparent;
+  width: 250px;
+  padding: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #ffff;
+}
+.Disasteye:hover {
+  border-color: rgb(135, 184, 237);
+}
+
+.Studymon {
+  margin-left: 30px;
+  text-align: center;
+  background: transparent;
+  width: 250px;
+  padding: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #ffff;
+}
+
+.Studymon:hover {
+  border-color: rgb(135, 184, 237);
+}
+.Rentalsys {
+  text-align: center;
+  margin-left: 30px;
+  background: transparent;
+  width: 250px;
+  padding: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #ffff;
+}
+
+.Rentalsys:hover {
+  border-color: rgb(135, 184, 237);
+}

@@ -1,0 +1,11 @@
+.resume {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ffff;
+  width: 880px;
+}
+
+.socialM-list {
+  margin-left: 20px;
+}

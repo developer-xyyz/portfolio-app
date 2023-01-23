@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 30px;
+}
+.socialMedia-list {
+  list-style: none;
+}
+
+.socialMedia-list li {
+  display: inline-block;
+  padding-right: 10px;
+}
