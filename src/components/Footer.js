@@ -8,7 +8,7 @@ const Footer = () => {
 
     return (
         <div className="footer">
-            <h1 className="footer-text">Ahnaf Ahmad</h1>
+            <h1 className="footer-text">Ahnaf Ahmad 2023</h1>
             <ul className="socialMedia-list">
                 <a href="https://www.linkedin.com/in/ahnaf-ahmad-8006b4249/" target="_blank">
                     <li><FaLinkedin size="1.5em"/></li>
