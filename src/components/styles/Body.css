@@ -21,3 +21,37 @@ td {
 .crrent-interests-list {
   margin-left: 20px;
 }
+
+@media screen and (max-width: 480px){
+  .about-me{
+    margin-top: 0;
+    width: 350px;
+  }
+  
+ 
+
+  table tr {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: left;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    float: right;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+}

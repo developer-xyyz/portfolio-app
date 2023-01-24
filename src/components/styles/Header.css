@@ -23,3 +23,13 @@
     width: 0;
   }
 }
+
+@media screen and (max-width: 480px){
+  .header{
+    margin-top: 40px;
+  }
+
+  .name{
+    font-size: 25px;
+  }
+}

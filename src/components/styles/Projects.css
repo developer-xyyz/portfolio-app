@@ -48,3 +48,32 @@
 .Rentalsys:hover {
   border-color: rgb(135, 184, 237);
 }
+
+@media screen and (max-width: 480px){
+  .projects{
+    width: 350px;
+    font-size: 5px;
+  }
+
+  .Disasteye{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+  }
+  .Studymon{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+  }
+  .Rentalsys{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+  }
+}
