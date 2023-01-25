@@ -4,7 +4,7 @@
   padding-bottom: 50px;
   background: rgba(255, 255, 255, 0.1);
   border: 2px solid #ffff;
-  width: 880px;
+  width: 840px;
 }
 
 .Disasteye {
@@ -21,7 +21,7 @@
 }
 
 .Studymon {
-  margin-left: 30px;
+  margin-left: 18px;
   text-align: center;
   background: transparent;
   width: 250px;
@@ -36,7 +36,7 @@
 }
 .Rentalsys {
   text-align: center;
-  margin-left: 30px;
+  margin-left: 18px;
   background: transparent;
   width: 250px;
   padding: 40px;
