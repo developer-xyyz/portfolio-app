@@ -16,7 +16,7 @@ const Projects = () => {
                 <button className="Studymon">Studymon</button>
             </a>
             <a href="https://github.com/developer-xyyz/CarRentalSystem" target="_blank">
-                <button className="Rentalsys">Vehicle Rental System</button>
+                <button className="Rentalsys">Car Rental System</button>
             </a>
             
 
