@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (min-width: 481) and (max-width: 961px) {
+@media only screen and (min-width: 768px) {
  
   .header{
     /*border: 2px solid #ffff;*/

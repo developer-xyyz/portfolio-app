@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (min-width: 481) and (max-width: 961px) {
+@media only screen and (min-width: 768px) {
   .resume{
     width: 700px;
   }
