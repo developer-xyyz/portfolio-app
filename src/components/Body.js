@@ -16,15 +16,15 @@ const Body = () => {
                 <table className="skills-list">
                     <tr>
                         <td>Java</td>
-                        <td>C programming</td>
+                        <td>C</td>
                         <td>Python</td>
                         <td>HTML & CSS</td>
                     </tr>
                     <tr>
                         <td>Github </td>
                         <td>SQL </td>
-                        <td>Javascript (currently learning) </td>
-                        <td>React (currently learning) </td>
+                        <td>Javascript</td>
+                        <td>React</td>
                     </tr>
             
                 </table>
