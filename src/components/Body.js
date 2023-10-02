@@ -16,23 +16,35 @@ const Body = () => {
                 <table className="skills-list">
                     <tr>
                         <td>Java</td>
-                        <td>C</td>
                         <td>Python</td>
-                        <td>HTML & CSS</td>
+                        <td>C</td>
+                        <td>C++</td>
                     </tr>
                     <tr>
-                        <td>Github </td>
+                        <td>HTML & CSS</td>
                         <td>SQL </td>
-                        <td>Javascript</td>
+                        <td>JavaScript</td>
                         <td>React</td>
+                    </tr>
+                    <tr>
+                        <td>TypeScript </td>
+                        <td>MySQL </td>
+                        <td>SQLite3</td>
+                        <td>MongoDB</td>
+                    </tr>
+                    <tr>
+                        <td>Docker</td>
+                        <td>Github</td>
+                        <td>AWS</td>
+                        <td>Postman</td>
                     </tr>
             
                 </table>
                 <h2 className="crrnt-interests">Current Interests/Learning</h2>
                 <ul className="crrent-interests-list">
-                    <li>React.js Web/Application Development</li>
-                    <li>Python Web Scraping</li>
-                    <li>Javascript SQL Databases</li>
+                    <li>TypeScript web automation</li>
+                    <li>Python machine learning data analytics</li>
+                    <li>AWS Cloud Computing</li>
                 </ul>
             </div>
         </div>
