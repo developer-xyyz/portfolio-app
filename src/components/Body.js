@@ -22,14 +22,14 @@ const Body = () => {
                     </tr>
                     <tr>
                         <td>HTML & CSS</td>
-                        <td>SQL </td>
+                        <td>SQL</td>
                         <td>JavaScript</td>
                         <td>React</td>
                     </tr>
                     <tr>
-                        <td>TypeScript </td>
-                        <td>MySQL </td>
-                        <td>SQLite3</td>
+                        <td>TypeScript</td>
+                        <td>MySQL</td>
+                        <td>SQLite</td>
                         <td>MongoDB</td>
                     </tr>
                     <tr>
